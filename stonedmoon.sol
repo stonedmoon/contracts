@@ -417,7 +417,7 @@ contract Ownable is Context {
 
 
 
-contract TestStonedMoon is Context, IERC20, Ownable {
+contract StonedMoon is Context, IERC20, Ownable {
     using SafeMath for uint256;
     using Address for address;
 
@@ -433,8 +433,8 @@ contract TestStonedMoon is Context, IERC20, Ownable {
     uint256 private _rTotal = (MAX - (MAX % _tTotal));
     uint256 private _tFeeTotal;
 
-    string private _name = 'TestStonedMoon';
-    string private _symbol = 'NOBUY';
+    string private _name = 'StonedMoon';
+    string private _symbol = 'BLAZEIT';
     uint8 private _decimals = 9;
 
     constructor () public {
